@@ -1,19 +1,53 @@
+body {
+}
 .main {
   background-image: url("../images/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-position: 50px -70px;
-  // background-repeat: no-repeat;
-  // background-size: 80% 120%;
-  // background-position: 200% 200%;
+  background-position: 65px -100px;
 }
 
-rect {
-  fill: orange;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 2rem;
 }
 
-.nav-wrapper {
-}
 .intro {
   width: 100%;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  background-image: url("../images/bg-tablet-pattern.svg");
+  background-size: 80% 80%;
+  background-repeat: no-repeat;
+  background-position: 280px 100px;
+
+  h1 {
+    text-align: center;
+    padding: 0.7rem;
+    font-size: 2.7rem;
+    line-height: 3.2rem;
+    color: $primary-blue;
+  }
+  p {
+    color: $dark-grayish-blue;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.2rem;
+  }
+  a {
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    padding: 1rem 1.8rem;
+    color: white;
+    text-decoration: none;
+    background-color: $primary-red;
+    border-radius: 30px;
+  }
 }
