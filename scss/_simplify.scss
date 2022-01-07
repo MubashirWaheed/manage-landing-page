@@ -1,0 +1,23 @@
+.simplify {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/bg-simplify-section-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-color: $primary-red;
+  h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    padding: 6rem 1.2rem 0rem 1.2rem;
+  }
+  a {
+    color: $primary-red;
+    font-weight: 700;
+    padding: 0.7rem 1.6rem;
+    background-color: white;
+    margin: 1rem 0px 4rem 0px;
+  }
+}
