@@ -1,0 +1,55 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 50px;
+  background-color: $very-dark-blue;
+  color: white;
+  width: 100%;
+  input {
+    padding: 5px;
+    border-radius: 15px;
+  }
+  button {
+    padding: 5px 13px;
+    background-color: $primary-red;
+    color: white;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  .links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-decoration: none;
+    margin-top: 3rem;
+  }
+  li {
+    list-style-type: none;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+  img {
+    path {
+      fill: white;
+      color: white;
+    }
+    // color: white;
+    // background-color: white;
+  }
+}
+
+.icons {
+  display: flex;
+
+  img {
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+  }
+}
