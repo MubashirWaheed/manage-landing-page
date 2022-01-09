@@ -1,0 +1,67 @@
+.main {
+  border: 1px solid red;
+  position: relative;
+}
+.hamburger {
+  display: block;
+  cursor: pointer;
+}
+.close {
+  position: absolute;
+  top: 40px;
+  right: 35px;
+  border: 1px solid red;
+  cursor: pointer;
+}
+.menu {
+  display: none;
+  flex-direction: column;
+  background: rebeccapurple;
+  width: 200px;
+  ul {
+    position: absolute;
+    border: 1px solid black;
+    top: 25%;
+    right: 0%;
+    left: 0%;
+    margin: 0px 20px 10px 20px;
+    background-color: white;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  li {
+    list-style-type: none;
+    margin: 13px;
+  }
+  a {
+    text-decoration: none;
+    color: $primary-blue;
+    font-weight: 700;
+  }
+}
+
+// Desktop
+@media screen and (min-width: 650px) {
+  .menu {
+    display: block;
+    ul {
+      display: flex;
+      flex-direction: row;
+      top: 30px;
+      right: 0;
+      left: 200px;
+      padding: 0px;
+    }
+    li {
+      margin: 5px 7px;
+    }
+  }
+  .hamburger {
+    display: none;
+  }
+  .close {
+    display: none;
+  }
+}
